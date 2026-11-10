@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+.venv/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# PyAI.exe yalnızca GitHub Releases üzerinden dağıtılır, repoya eklenmez
+*.exe
+# PyAI çalışınca oluşan kişisel sohbet klasörü asla repoya girmesin
+sohbetler/
